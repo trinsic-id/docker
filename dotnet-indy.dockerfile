@@ -8,7 +8,7 @@ RUN apt-get update -y && apt-get install -y \
         curl
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 68DB5E88
-RUN add-apt-repository "deb https://repo.sovrin.org/sdk/deb xenial master"
+RUN add-apt-repository "deb https://repo.sovrin.org/sdk/deb xenial rc"
 
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 RUN mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -16,4 +16,4 @@ RUN sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft
 
 RUN apt-get update -y && apt-get install -y \
         libindy \
-        dotnet-sdk-2.1.105
+        dotnet-sdk-2.1

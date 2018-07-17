@@ -1,0 +1,9 @@
+To build a docker image:
+
+    $ docker build -t streetcred/dotnet-indy:latest -f dotnet-indy.dockerfile .
+
+To upload to docker hub:
+
+    $ docker login
+    $ docker push streetcred/dotnet-indy:latest
+
