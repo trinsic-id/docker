@@ -16,4 +16,4 @@ RUN sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft
 
 RUN apt-get update -y && apt-get install -y \
         libindy \
-        dotnet-sdk-2.1
+        dotnet-sdk-2.2

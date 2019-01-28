@@ -2,13 +2,13 @@
 
 Usage:
 ```lang=dockerfile
-FROM streetcred/dotnet-indy:1.6.8
+FROM streetcred/dotnet-indy:1.7.0
 ```
 
 Tags:
-- `streetcred/dotnet-indy:1.6.8`
+- `streetcred/dotnet-indy:1.7.0`
 - `streetcred/dotnet-indy:latest`
 
 Image contains:
-- .NET Core SDK 2.1
-- Indy 1.6.8
+- .NET Core SDK 2.2
+- Indy 1.7.0
