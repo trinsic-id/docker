@@ -1,9 +1,12 @@
 # Docker image with libindy and dotnet
 
-Usage:
+## Usage
+
 ```lang=dockerfile
 FROM streetcred/dotnet-indy:latest
 ```
+
+## Images
 
 |                                                                | libindy | dotnet sdk | runtime version | available runtimes  |
 |----------------------------------------------------------------|---------|------------|-----------------|---------------------|
