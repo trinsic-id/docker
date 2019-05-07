@@ -10,9 +10,10 @@ FROM streetcred/dotnet-indy:latest
 
 ## Images
 
-| tags                                                           | libindy | dotnet sdk | runtime version | available runtimes  |
+| tags                                                           | libindy | runtime version | dotnet sdk | available runtimes  |
 |----------------------------------------------------------------|---------|------------|-----------------|---------------------|
-| `streetcred/dotnet-indy:latest`<br />`streetcred/dotnet-indy:1.8.2`| 1.8.2   | 2.2        | 2.2.103         | netcore, aspnetcore |
+| `streetcred/dotnet-indy:latest`<br />`streetcred/dotnet-indy:1.8.3`| 1.8.3-86   | 2.2.4        | 2.2.203         | netcore, aspnetcore |
+| `streetcred/dotnet-indy:1.8.2`| 1.8.2   | 2.2        | 2.2.103         | netcore, aspnetcore |
 | `streetcred/dotnet-indy:1.8.1`| 1.8.1   | 2.2        | 2.2.103         | netcore, aspnetcore |
 | `streetcred/dotnet-indy:1.7.0`| 1.7.0   | 2.2        | 2.2.103         | netcore, aspnetcore |
 | `streetcred/dotnet-indy:1.6.7`                                 | 1.6.7   | 2.1        | 2.1.403         | netcore, aspnetcore |
