@@ -12,7 +12,8 @@ FROM streetcred/dotnet-indy:latest
 
 | tags                                                           | libindy | libsovtoken | runtime version | dotnet sdk | available runtimes  |
 |----------------------------------------------------------------|-------|--|------------|-----------------|---------------------|
-| `streetcred/dotnet-indy:latest`<br />`streetcred/dotnet-indy:1.9.0`| 1.9.0 | 0.10.0   | 2.2.5        | 2.2.300         | netcore, aspnetcore |
+| `streetcred/dotnet-indy:latest`<br />`streetcred/dotnet-indy:1.12.0`| 1.12.0 | 1.0.3   | 2.2.7        | 2.2.402         | netcore, aspnetcore |
+| `streetcred/dotnet-indy:1.9.0`| 1.9.0 | 0.10.0   | 2.2.5        | 2.2.300         | netcore, aspnetcore |
 | `streetcred/dotnet-indy:1.8.3`| 1.8.3  |  | 2.2.4        | 2.2.203         | netcore, aspnetcore |
 | `streetcred/dotnet-indy:1.8.2`| 1.8.2  |  | 2.2          | 2.2.103         | netcore, aspnetcore |
 | `streetcred/dotnet-indy:1.8.1`| 1.8.1  |  | 2.2          | 2.2.103         | netcore, aspnetcore |
