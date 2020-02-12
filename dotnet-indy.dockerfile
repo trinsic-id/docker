@@ -19,4 +19,4 @@ RUN sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft
 RUN apt-get update -y && apt-get install -y --allow-unauthenticated \
         libindy \
         libsovtoken \
-        dotnet-sdk-3.0
+        dotnet-sdk-3.1
