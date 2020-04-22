@@ -12,7 +12,7 @@ FROM streetcred/dotnet-indy:latest
 
 | tags                                                           | libindy | libsovtoken | runtime version | dotnet sdk | available runtimes  |
 |----------------------------------------------------------------|-------|--|------------|-----------------|---------------------|
-| `streetcred/dotnet-indy:latest`<br />`streetcred/dotnet-indy:1.15.0`| 1.15.0 | 1.0.5   | 3.1.1        | 3.1.201         | netcore, aspnetcore, Ubuntu 18.04 |
+| `streetcred/dotnet-indy:latest`<br />`streetcred/dotnet-indy:1.15.0`| 1.15.0 |    | 3.1.1        | 3.1.201         | netcore, aspnetcore, Ubuntu 18.04 |
 | `streetcred/dotnet-indy:1.14.2`| 1.14.2 | 1.0.5   | 3.1.1        | 3.1.101         | netcore, aspnetcore, Ubuntu 18.04 |
 | `streetcred/dotnet-indy:1.12.2`| 1.12.0 | 1.0.3   | 3.0.1        | 3.0.101         | netcore, aspnetcore, Ubuntu 18.04 |
 | `streetcred/dotnet-indy:1.12.1`| 1.12.0 | 1.0.3   | 3.0.1        | 3.0.101         | netcore, aspnetcore |
