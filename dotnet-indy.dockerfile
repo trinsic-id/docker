@@ -9,7 +9,7 @@ RUN apt-get update -y && apt-get install -y \
 
 # libindy
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys CE7709D068DB5E88
-RUN add-apt-repository "deb https://repo.sovrin.org/sdk/deb bionic rc"
+RUN add-apt-repository "deb https://repo.sovrin.org/sdk/deb bionic stable"
 
 # dotnet
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
